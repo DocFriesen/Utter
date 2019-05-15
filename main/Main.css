@@ -1,0 +1,116 @@
+iframe {
+    border: 1px solid black;
+    width: 100%;
+}
+
+body {
+	background: #999;
+	color: white;
+	font-family: Helvetica;
+
+}
+
+nav.navigation {
+	background-color:black;
+	display: flex;
+}
+
+.navigation li {
+	display:inline-block;
+	border-radius: 3px;
+	padding: 2px;
+	margin-left: 10px;
+}
+
+header {
+	background: black;
+	padding: 20px;
+}
+
+header .logo a {
+	background-image: url("Images/Utter_Logo.png");
+	background-size: 300px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 300px;
+	height: 80px;
+	text-indent: -9999999px
+
+}
+
+section {
+	background: #999;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+}
+
+.Button {
+	-moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #768d87), color-stop(1, #6c7c7c));
+	background:-moz-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-webkit-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-o-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-ms-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#768d87', endColorstr='#6c7c7c',GradientType=0);
+	background-color:#768d87;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.Button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #6c7c7c), color-stop(1, #768d87));
+	background:-moz-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-webkit-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-o-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-ms-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6c7c7c', endColorstr='#768d87',GradientType=0);
+	background-color:#6c7c7c;
+}
+.Button:active {
+	position:relative;
+	top:1px;
+}
+
+
+footer {
+	background: black;
+	padding:10px;
+}
+
+div {
+	display: inline-block;
+	margin: auto;
+	width: 400px;
+
+}
+
+li:hover {
+	background-color:green;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+

@@ -1,0 +1,20 @@
+{
+  "name": "utter",
+  "version": "1.0.0",
+  "description": "Language App",
+  "main": "Utter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Language"
+  ],
+  "author": "Dan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "mysql": "^2.17.1"
+  }
+}

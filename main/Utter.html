@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Utter</title>
+		<link href = "Main.css" rel = "stylesheet" type = "text/css"/>
+		<script src = "libraries/Mousetrap.min.js"></script>
+		<script src = "libraries/jquery.min.js"></script>
+	</head>
+
+<body>
+	<header>
+		<nav class = "navigation">
+			<ul>
+				<li>Home</li>
+				<li><a href = "Utter2.html">About</a></li>
+				<li class = "logo"><a href = "Utter.html">Utter Logo</a></li>
+				<li><a href = "Utter3.html">Language Theory</a></li>
+				<li><a href = "Utter4.html">Start Uttering</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- Video/Audio Player -->
+	<section>
+		<iframe id="video player"
+   			 title="video player"
+    			width="480"
+    			height="640"
+    			src="https://www.youtube.com/embed/Xj8R7bEGK4w? modestbranding=1&autohide=1&disablekb=1&enablejsapi=1" frameborder="0"
+    			allowfullscreen>
+		</iframe>
+	</section>
+	<!-- Mousetrap Functions -->
+		<script>
+			var combokeys = new Combokeys(document.documentElement);
+
+			var vidcombokeys = new Combokeys(document.getElementById("video player"));
+
+			combokeys.bind('2', function () {
+				var audio = document.getElementById("vowel1")
+				audio.play();
+			});
+			Mousetrap.bind('3', function () {
+				var audio = document.getElementById("vowel2")
+				audio.play();
+			});
+			Mousetrap.bind('4', function () {
+				var audio = document.getElementById("vowel3")
+				audio.play();
+			});
+			Mousetrap.bind('5', function () {
+				var audio = document.getElementById("vowel4")
+				audio.play();
+			});
+			Mousetrap.bind('6', function () {
+				var audio = document.getElementById("vowel5")
+				audio.play();
+			});
+			Mousetrap.bind('7', function () {
+				var audio = document.getElementById("vowel6")
+				audio.play();
+			});
+			Mousetrap.bind('8', function () {
+				var audio = document.getElementById("vowel7")
+				audio.play();
+			});
+			Mousetrap.bind('q', function () {
+				var audio = document.getElementById("cons1")
+				audio.play();
+			});
+			Mousetrap.bind('w', function () {
+				var audio = document.getElementById("cons2")
+				audio.play();
+			});
+			Mousetrap.bind('e', function () {
+				var audio = document.getElementById("cons3")
+				audio.play();
+			});
+			Mousetrap.bind('r', function () {
+				var audio = document.getElementById("cons4")
+				audio.play();
+			});
+			Mousetrap.bind('t', function () {
+				var audio = document.getElementById("cons5")
+				audio.play();
+			});
+			Mousetrap.bind('y', function () {
+				var audio = document.getElementById("cons6")
+				audio.play();
+			});
+			Mousetrap.bind('u', function () {
+				var audio = document.getElementById("cons7")
+				audio.play();
+			});
+			Mousetrap.bind('i', function () {
+				var audio = document.getElementById("cons8")
+				audio.play();
+			});
+			Mousetrap.bind('o', function () {
+				var audio = document.getElementById("cons9")
+				audio.play();
+			});
+			Mousetrap.bind('p', function () {
+				var audio = document.getElementById("cons10")
+				audio.play();
+			});
+			Mousetrap.bind('a', function () {
+				var audio = document.getElementById("cons11")
+				audio.play();
+			});
+			Mousetrap.bind('s', function () {
+				var audio = document.getElementById("cons12")
+				audio.play();
+			});
+			Mousetrap.bind('d', function () {
+				var audio = document.getElementById("cons13")
+				audio.play();
+			});
+			Mousetrap.bind('f', function () {
+				var audio = document.getElementById("cons14")
+				audio.play();
+			});
+			Mousetrap.bind('g', function () {
+				var audio = document.getElementById("cons15")
+				audio.play();
+			});
+			Mousetrap.bind('h', function () {
+				var audio = document.getElementById("cons16")
+				audio.play();
+			});
+			Mousetrap.bind('j', function () {
+				var audio = document.getElementById("cons17")
+				audio.play();
+			});
+			Mousetrap.bind('k', function () {
+				var audio = document.getElementById("cons18")
+				audio.play();
+			});
+			Mousetrap.bind('l', function () {
+				var audio = document.getElementById("cons19")
+				audio.play();
+			});
+			Mousetrap.bind('x', function () {
+				var audio = document.getElementById("cons20")
+				audio.play();
+			});
+			Mousetrap.bind('c', function () {
+				var audio = document.getElementById("cons21")
+				audio.play();
+			});
+			Mousetrap.bind('v', function () {
+				var audio = document.getElementById("cons22")
+				audio.play();
+			});
+			Mousetrap.bind('b', function () {
+				var audio = document.getElementById("cons23")
+				audio.play();
+			});
+			Mousetrap.bind('n', function () {
+				var audio = document.getElementById("cons24")
+				audio.play();
+			});
+		</script>
+
+		<!-- Vowel and Consonant sound functions -->
+		<script>
+			function vowelsound1(){
+				var audio = document.getElementById("vowel1")
+				audio.play();
+			}
+			function vowelsound2(){
+				var audio = document.getElementById("vowel2")
+				audio.play();
+			}
+			function vowelsound3(){
+				var audio = document.getElementById("vowel3")
+				audio.play();
+			}
+			function vowelsound4(){
+				var audio = document.getElementById("vowel4")
+				audio.play();
+			}
+			function vowelsound5(){
+				var audio = document.getElementById("vowel5")
+				audio.play();
+			}
+			function vowelsound6(){
+				var audio = document.getElementById("vowel6")
+				audio.play();
+			}
+			function vowelsound7(){
+				var audio = document.getElementById("vowel7")
+				audio.play();
+			}
+			function consound1(){
+				var audio = document.getElementById("cons1")
+				audio.play();
+			}
+			function consound2(){
+				var audio = document.getElementById("cons2")
+				audio.play();
+			}
+			function consound3(){
+				var audio = document.getElementById("cons3")
+				audio.play();
+			}
+			function consound4(){
+				var audio = document.getElementById("cons4")
+				audio.play();
+			}
+			function consound5(){
+				var audio = document.getElementById("cons5")
+				audio.play();
+			}
+			function consound6(){
+				var audio = document.getElementById("cons6")
+				audio.play();
+			}
+			function consound7(){
+				var audio = document.getElementById("cons7")
+				audio.play();
+			}
+			function consound8(){
+				var audio = document.getElementById("cons8")
+				audio.play();
+			}
+			function consound9(){
+				var audio = document.getElementById("cons9")
+				audio.play();
+			}
+
+			function consound10(){
+				var audio = document.getElementById("cons10")
+				audio.play();
+			}
+			function consound11(){
+				var audio = document.getElementById("cons11")
+				audio.play();
+			}
+			function consound12(){
+				var audio = document.getElementById("cons12")
+				audio.play();
+			}
+			function consound12(){
+				var audio = document.getElementById("cons12")
+				audio.play();
+			}
+			function consound13(){
+				var audio = document.getElementById("cons13")
+				audio.play();
+			}
+			function consound14(){
+				var audio = document.getElementById("cons14")
+				audio.play();
+			}
+			function consound15(){
+				var audio = document.getElementById("cons15")
+				audio.play();
+			}
+			function consound16(){
+				var audio = document.getElementById("cons16")
+				audio.play();
+			}
+			function consound17(){
+				var audio = document.getElementById("cons17")
+				audio.play();
+			}
+			function consound18(){
+				var audio = document.getElementById("cons18")
+				audio.play();
+			}
+			function consound19(){
+				var audio = document.getElementById("cons19")
+				audio.play();
+			}
+			function consound20(){
+				var audio = document.getElementById("cons20")
+				audio.play();
+			}
+			function consound21(){
+				var audio = document.getElementById("cons21")
+				audio.play();
+			}
+			function consound22(){
+				var audio = document.getElementById("cons22")
+				audio.play();
+			}
+			function consound23(){
+				var audio = document.getElementById("cons23")
+				audio.play();
+			}
+			function consound24(){
+				var audio = document.getElementById("cons24")
+				audio.play();
+			}
+		</script>
+		
+		<!-- Keyboard buttons for Vowels and Consonant -->
+	<section>
+		<input type="button" class = "Button" value="Vowel 1" onclick="vowelsound1()">
+		<audio id="vowel1" src = "VowelA.wav"></audio>
+
+		<input type="button" class = "Button" value="Vowel 2" onclick="vowelsound2()">
+		<audio id="vowel2" src = "VowelE.wav"></audio>
+
+		<input type="button" class = "Button" value="Vowel 3" onclick="vowelsound3()">
+		<audio id="vowel3" src = "VowelEE.wav"></audio>
+
+		<input type="button" class = "Button" value="Vowel 4" onclick="vowelsound4()">
+		<audio id="vowel4" src = "Voweli.wav"></audio>
+
+		<input type="button" class = "Button" value="Vowel 5" onclick="vowelsound5()">
+		<audio id="vowel5" src = "VowelO.wav"></audio>
+
+		<input type="button" class = "Button" value="Vowel 6" onclick="vowelsound6()">
+		<audio id="vowel6" src = "VowelOO.wav"></audio>
+
+		<input type="button" class = "Button" value="Vowel 7" onclick="vowelsound7()">
+		<audio id="vowel7" src = "VowelU.wav"></audio>
+
+	</section>
+	<section>
+
+		<input type="button" class = "Button" value="Consonant 1" onclick="consound1()">
+		<audio id="cons1" src = "ConsonantB.wav"></audio>
+
+		<input type="button" class = "Button" value="Consonant 2" onclick="consound2()">
+		<audio id="cons2" src = "ConsonantC.wav"></audio>
+
+		<input type="button" class = "Button" value="Consonant 3" onclick="consound3()">
+		<audio id="cons3" src = "ConsonantCH.wav"></audio>
+
+		<input type="button" class = "Button" value="Consonant 4" onclick="consound4()">
+		<audio id="cons4" src = "ConsonantD.wav"></audio>
+
+		<input type="button" class = "Button" value="Consonant 5" onclick="consound5()">
+		<audio id="cons5" src = "ConsonantF.wav"></audio>
+
+		<input type="button" class = "Button" value="Consonant 6" onclick="consound6()">
+		<audio id="cons6" src = "ConsonantG.wav"></audio>
+
+		<input type="button" class = "Button" value="Consonant 7" onclick="consound7()">
+		<audio id="cons7" src = "ConsonantH.wav"></audio>
+
+		<input type="button" class = "Button" value="Consonant 8" onclick="consound8()">
+		<audio id="cons8" src = "ConsonantJ.wav"></audio>
+
+		<input type="button" class = "Button" value="Consonant 9" onclick="consound9()">
+		<audio id="cons9" src = "ConsonantK.wav"></audio>
+
+		<input type="button" class = "Button" value="Consonant 10" onclick="consound10()">
+		<audio id="cons10" src = "ConsonantL.wav"></audio>
+
+	</section>
+	<section>
+
+		<input type="button" class = "Button" value="Consonant 11" onclick="consound11()">
+		<audio id="cons11" src = "ConsonantM.wav"></audio>
+
+		<input type="button" class = "Button" value="Consonant 12" onclick="consound12()">
+		<audio id="cons12" src = "ConsonantN.wav"></audio>
+
+		<input type="button" class = "Button" value="Consonant 13" onclick="consound13()">
+		<audio id="cons13" src = "ConsonantNG.wav"></audio>
+
+		<input type="button" class = "Button" value="Consonant 14" onclick="consound14()">
+		<audio id="cons14" src = "ConsonantP.wav"></audio>
+
+		<input type="button" class = "Button" value="Consonant 15" onclick="consound15()">
+		<audio id="cons15" src = "ConsonantQ.wav"></audio>
+
+		<input type="button" class = "Button" value="Consonant 16" onclick="consound16()">
+		<audio id="cons16" src = "ConsonantR.wav"></audio>
+
+		<input type="button" class = "Button" value="Consonant 17" onclick="consound17()">
+		<audio id="cons17" src = "ConsonantS.wav"></audio>
+
+		<input type="button" class = "Button" value="Consonant 18" onclick="consound18()">
+		<audio id="cons18" src = "ConsonantSH.wav"></audio>
+
+		<input type="button" class = "Button" value="Consonant 19" onclick="consound19()">
+		<audio id="cons19" src = "ConsonantT.wav"></audio>
+
+	</section>
+	<section>
+
+		<input type="button" class = "Button" value="Consonant 20" onclick="consound20()">
+		<audio id="cons20" src = "ConsonantW.wav"></audio>
+
+		<input type="button" class = "Button" value="Consonant 21" onclick="consound21()">
+		<audio id="cons21" src = "ConsonantX.wav"></audio>
+
+		<input type="button" class = "Button" value="Consonant 22" onclick="consound22()">
+		<audio id="cons22" src = "ConsonantY.wav"></audio>
+
+		<input type="button" class = "Button" value="Consonant 23" onclick="consound23()">
+		<audio id="cons23" src = "ConsonantZ.wav"></audio>
+
+		<input type="button" class = "Button" value="Consonant 24" onclick="consound24()">
+		<audio id="cons24" src = "ConsonantZH.wav"></audio>
+
+	</section>
+</body>
+	<footer>Footer</footer>
+
+
+</html>
+	
